@@ -1,0 +1,22 @@
+<svg xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:svg="http://www.w3.org/2000/svg" xmlns="http://www.w3.org/2000/svg" id="svg13" version="1.1" viewBox="0 0 24 24" height="24" width="24">
+  <metadata id="metadata19">
+    <rdf:RDF>
+      <cc:Work rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs id="defs17"/>
+  <!-- Generator: Sketch 60 (88103) - https://sketch.com -->
+  <title id="title2">Group 39</title>
+  <desc id="desc4">Created with Sketch.</desc>
+  <g transform="translate(2,2)" style="fill:none;fill-rule:evenodd;stroke:none;stroke-width:1" id="Page-1">
+    <g transform="translate(-2,-2)" id="Group-39">
+      <rect height="24" width="24" y="0" x="0" id="Rectangle"/>
+      <circle style="fill: #ffedb3;" r="10" cy="12" cx="12" id="Oval"/>
+      <rect style="fill:#ffffff" height="6" width="2" y="11" x="11" id="rect8"/>
+      <rect style="fill:#ffffff" height="2" width="2" y="7" x="11" id="Rectangle-Copy-15"/>
+    </g>
+  </g>
+</svg>

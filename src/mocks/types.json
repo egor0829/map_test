@@ -1,0 +1,197 @@
+[
+  {
+    "type": "meetingRoom",
+    "name": "Переговорки",
+    "options": {
+      "capacity": "Количество мест",
+      "isConferencePhone": "Конференц-телефон",
+      "isVKS": "ВКС",
+      "isClickShare": "ClickShare",
+      "isAppleTv": "AppleTV",
+      "isZKPanel": "ЖК Панель",
+      "isFree": "Свободно",
+      "isPresentationPC": "Презентационный ПК",
+      "isSkype": "Skype",
+      "isProjector": "Проектор"
+    },
+    "searchPhrases": {
+      "конференц": "isConferencePhone",
+      "телефон": "isConferencePhone",
+      "конференц-телефон": "isConferencePhone",
+      "вкс": "isVKS",
+      "внутренняя": "isVKS",
+      "корпоративная": "isVKS",
+      "сеть": "isVKS",
+      "внутренняя корпоративная": "isVKS",
+      "корпоративная сеть": "isVKS",
+      "внутренняя сеть": "isVKS",
+      "clickshare": "isClickShare",
+      "кликшеер": "isClickShare",
+      "кликшейр": "isClickShare",
+      "кликшэйр": "isClickShare",
+      "кликшэер": "isClickShare",
+      "appletv": "isAppleTv",
+      "apple": "isAppleTv",
+      "эпл": "isAppleTv",
+      "эплтв": "isAppleTv",
+      "жк панель": "isZKPanel",
+      "панель": "isZKPanel",
+      "жк": "isZKPanel",
+      "презентационный пк": "isPresentationPC",
+      "преза": "isPresentationPC",
+      "пк": "isPresentationPC",
+      "skype": "isSkype",
+      "скайп": "isSkype",
+      "кухня": "kitchen",
+      "туалет": "wc",
+      "гардеробная": "wardrobe",
+      "гардероб": "wardrobe",
+      "лифт": "lift",
+      "принтерная": "printerZone",
+      "принтер": "printerZone",
+      "ресепшн": "frontDesk",
+      "ресепшен": "frontDesk",
+      "внутренняя корпоративная сеть": "isVKS",
+      "презентационный": "isPresentationPC",
+      "наличие конференц-телефона": "isConferencePhone",
+      "наличие вкс": "isVKS",
+      "наличие clickshare": "isClickShare",
+      "наличие appletv": "isAppleTv",
+      "наличие жк панели": "isZKPanel",
+      "наличие презентационного пк": "isPresentationPC",
+      "наличие skype": "isSkype",
+      "наличие кликшеер": "isClickShare",
+      "наличие кликшейр": "isClickShare",
+      "наличие кликшэйр": "isClickShare",
+      "наличие кликшэер": "isClickShare",
+      "наличие apple": "isAppleTv",
+      "наличие эплтв": "isAppleTv",
+      "наличие эпл": "isAppleTv",
+      "наличие апл": "isAppleTv",
+      "наличие аплтв": "isAppleTv",
+      "апл": "isAppleTv",
+      "аплтв": "isAppleTv",
+      "наличие скайп": "isSkype"
+    },
+    "optionsForFilter": {
+      "isConferencePhone": {
+        "title": "Наличие конференц-телефона",
+        "additional": { "type": "valueConferencePhone", "link": "ciscotel" }
+      },
+      "isVKS": {
+        "title": "Наличие ВКС",
+        "instructions": [
+          {
+            "qr": "rq-vks-new.png",
+            "url": "https://cloud.domrf.ru/index.php/s/oz4YsQ7aWMMnWe5",
+            "text": "Переговорные <b>кроме</b> <span>5-7</span>, <span>5-8</span>, <span>5-9</span>, <span>5-10</span>"
+          },
+          {
+            "qr": "rq-vks.png",
+            "url": "https://cloud.domrf.ru/index.php/s/kBzE4iQn7QXRb68#pdfviewer",
+            "text": "Переговорные <span>5-7</span>, <span>5-8</span>, <span>5-9</span>, <span>5-10</span>"
+          }
+        ],
+        "additional": { "type": "valueVksPhone", "link": "sip" }
+      },
+      "isClickShare": {
+        "title": "Наличие ClickShare",
+        "instructions": [
+          {
+            "qr": "qr_ClickShare.png",
+            "url": "https://cloud.domrf.ru/index.php/s/NtZ2MQZ9aYXWBt4#pdfviewer"
+          }
+        ]
+      },
+      "isAppleTv": {
+        "title": "Наличие AppleTV",
+        "instructions": [
+          {
+            "qr": "qr_Apple-TV.png",
+            "url": "https://cloud.domrf.ru/index.php/s/4S6Bt7tb34w89Rx#pdfviewer"
+          }
+        ]
+      },
+      "isZKPanel": { "title": "Наличие ЖК панели" },
+      "isFree": { "title": "Свободно" },
+      "isPresentationPC": {
+        "title": "Наличие презентационного ПК",
+        "instructions": [
+          {
+            "qr": "qr_Презентационный-ПК.png",
+            "url": "https://cloud.domrf.ru/index.php/s/otsBgN6FkzK878R#pdfviewer"
+          }
+        ]
+      },
+      "isSkype": {
+        "title": "Наличие Skype",
+        "instructions": [
+          {
+            "qr": "qr_Skype.png",
+            "url": "https://cloud.domrf.ru/index.php/s/9an6RqxYnGRbGwX#pdfviewer\t"
+          }
+        ]
+      }
+    },
+    "color": "",
+    "icon": ""
+  },
+  {
+    "type": "kitchen",
+    "name": "Кухня",
+    "options": {
+      "isCoffeeMachine": "false",
+      "isMicrowave": "false",
+      "hasCups": "false"
+    },
+    "searchPhrases": { "кухня": "kitchen" },
+    "optionsForFilter": [],
+    "color": "#4ec3e0",
+    "icon": "<?xml version=\"1.0\" encoding=\"UTF-8\"?><svg width=\"18px\" height=\"20px\" viewBox=\"0 0 18 20\" version=\"1.1\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\"><g id=\"Page-1\" stroke=\"none\" stroke-width=\"1\" fill=\"none\" fill-rule=\"evenodd\"><g id=\"Переговорки-900px-(new)-Сlickshare-тултип\" transform=\"translate(-219.000000, -1046.000000)\"><g id=\"ic-restaurant-24px\" transform=\"translate(216.000000, 1044.000000)\"><path d=\"M11,9 L9,9 L9,2 L7,2 L7,9 L5,9 L5,2 L3,2 L3,9 C3,11.12 4.66,12.84 6.75,12.97 L6.75,22 L9.25,22 L9.25,12.97 C11.34,12.84 13,11.12 13,9 L13,2 L11,2 L11,9 Z M16,6 L16,14 L18.5,14 L18.5,22 L21,22 L21,2 C18.24,2 16,4.24 16,6 Z\" id=\"Shape\" fill=\"#9BA9AD\" fill-rule=\"nonzero\"></path><polygon id=\"Path\" points=\"0 0 24 0 24 24 0 24\"></polygon></g></g></g></svg>"
+  },
+  {
+    "type": "wc",
+    "name": "Туалет",
+    "options": { "sinkInBooth": "false" },
+    "searchPhrases": { "туалет": "wc" },
+    "optionsForFilter": [],
+    "color": "#b8e7f3",
+    "icon": "<?xml version=\"1.0\" encoding=\"UTF-8\"?><svg width=\"17px\" height=\"20px\" viewBox=\"0 0 17 20\" version=\"1.1\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\"><g id=\"Page-1\" stroke=\"none\" stroke-width=\"1\" fill=\"none\" fill-rule=\"evenodd\"><g id=\"Переговорки-900px-(new)-Сlickshare-тултип\" transform=\"translate(-52.000000, -1046.000000)\"><g id=\"ic-wc-24px\" transform=\"translate(48.000000, 1044.000000)\"><polygon id=\"Path\" points=\"0 0 24 0 24 24 0 24\"></polygon><path d=\"M5.5,22 L5.5,14.5 L4,14.5 L4,9 C4,7.9 4.9,7 6,7 L9,7 C10.1,7 11,7.9 11,9 L11,14.5 L9.5,14.5 L9.5,22 L5.5,22 Z M18,22 L18,16 L21,16 L18.46,8.37 C18.18,7.55 17.42,7 16.56,7 L16.44,7 C15.58,7 14.81,7.55 14.54,8.37 L12,16 L15,16 L15,22 L18,22 Z M7.5,6 C8.61,6 9.5,5.11 9.5,4 C9.5,2.89 8.61,2 7.5,2 C6.39,2 5.5,2.89 5.5,4 C5.5,5.11 6.39,6 7.5,6 Z M16.5,6 C17.61,6 18.5,5.11 18.5,4 C18.5,2.89 17.61,2 16.5,2 C15.39,2 14.5,2.89 14.5,4 C14.5,5.11 15.39,6 16.5,6 Z\" id=\"Shape\" fill=\"#9BA9AD\" fill-rule=\"nonzero\"></path></g></g></g></svg>"
+  },
+  {
+    "type": "wardrobe",
+    "name": "Гардеробная",
+    "options": { "isHangers": "false" },
+    "searchPhrases": { "гардеробная": "wardrobe", "гардероб": "wardrobe" },
+    "optionsForFilter": [],
+    "color": "#ffedb3",
+    "icon": "<?xml version=\"1.0\" encoding=\"UTF-8\"?><svg width=\"11px\" height=\"20px\" viewBox=\"0 0 11 20\" version=\"1.1\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\"><g id=\"Page-1\" stroke=\"none\" stroke-width=\"1\" fill=\"none\" fill-rule=\"evenodd\"><g id=\"Переговорки-900px-(new)-Сlickshare-тултип\" transform=\"translate(-745.000000, -1046.000000)\"><g id=\"Group-16\" transform=\"translate(738.000000, 1044.000000)\"><rect id=\"Rectangle\" x=\"0\" y=\"0\" width=\"24\" height=\"24\"></rect><path d=\"M12.3065866,4.98502836 C13.5867558,4.98502836 14.6282427,6.28215773 14.6282427,7.8765799 C14.6282427,8.69950852 15.2978446,9.36904516 16.1208058,9.36904516 C16.9437671,9.36904516 17.6133363,8.69950852 17.6133363,7.8765799 C17.6133363,4.63620264 15.2327761,2 12.3065866,2 C9.38049496,2 7,4.63620264 7,7.87700391 L7.01174168,21.1322506 C7.01174168,21.589165 7.38346367,21.960887 7.84037806,21.960887 L16.1894946,21.960887 C16.646409,21.960887 17.0181963,21.589165 17.0181963,21.1322506 L17.0181963,12.6950062 C17.0181963,12.2380918 16.646409,11.8663698 16.1877334,11.8663698 C16.1210341,11.8663698 14.5351573,11.8602707 12.9604024,11.3275572 C10.986137,10.6597492 9.98506097,9.49862763 9.98506097,7.8765799 C9.98509359,6.28219035 11.0264827,4.98502836 12.3065866,4.98502836 Z\" id=\"Path\" fill=\"#9BA9AD\"></path></g></g></g></svg>"
+  },
+  {
+    "type": "lift",
+    "name": "Лифт",
+    "options": { "isSmell": "false" },
+    "searchPhrases": { "лифт": "lift" },
+    "optionsForFilter": [],
+    "color": "#2f444e",
+    "icon": "<?xml version=\"1.0\" encoding=\"UTF-8\"?><svg width=\"22px\" height=\"20px\" viewBox=\"0 0 22 20\" version=\"1.1\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\"><defs><polygon id=\"path-1\" points=\"0 0 24 0 24 24 0 24\"></polygon></defs><g id=\"Page-1\" stroke=\"none\" stroke-width=\"1\" fill=\"none\" fill-rule=\"evenodd\"><g id=\"Переговорки-900px-(new)-Сlickshare-тултип\" transform=\"translate(-380.000000, -1046.000000)\"><g id=\"ic-compare-arrows-24px\" transform=\"translate(379.000000, 1044.000000)\"><mask id=\"mask-2\" fill=\"white\"><use xlink:href=\"#path-1\"></use></mask><g id=\"a\"></g><path d=\"M19,15.1081818 L19,3 L16,3 L16,15.1081818 L12,15.1081818 L17.5,22 L23.0307503,15.1081818 L19,15.1081818 Z M1.28288,8.89181818 L5.1362653,8.89181818 L5.1362653,21 L7.90268069,21 L7.90268069,8.89181818 L12,8.89181818 L6.5,2 L1.28288,8.89181818 Z\" id=\"Shape\" fill=\"#9BA9AD\" fill-rule=\"nonzero\" mask=\"url(#mask-2)\"></path></g></g></g></svg>"
+  },
+  {
+    "type": "printerZone",
+    "name": "Принтерная",
+    "options": { "isInk": "false" },
+    "searchPhrases": { "принтерная": "printerZone", "принтер": "printerZone" },
+    "optionsForFilter": [],
+    "color": "#fed141",
+    "icon": "<?xml version=\"1.0\" encoding=\"UTF-8\"?><svg width=\"20px\" height=\"18px\" viewBox=\"0 0 20 18\" version=\"1.1\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\"><g id=\"Page-1\" stroke=\"none\" stroke-width=\"1\" fill=\"none\" fill-rule=\"evenodd\"><g id=\"Переговорки-900px-(new)-Сlickshare-тултип\" transform=\"translate(-540.000000, -1047.000000)\"><g id=\"ic-local-printshop-24px\" transform=\"translate(538.000000, 1044.000000)\"><path d=\"M19,8 L5,8 C3.34,8 2,9.34 2,11 L2,17 L6,17 L6,21 L18,21 L18,17 L22,17 L22,11 C22,9.34 20.66,8 19,8 Z M15,19 L9,19 L9,15 L15,15 L15,19 Z M19,12 C18.45,12 18,11.55 18,11 C18,10.45 18.45,10 19,10 C19.55,10 20,10.45 20,11 C20,11.55 19.55,12 19,12 Z M18,3 L6,3 L6,7 L18,7 L18,3 Z\" id=\"Shape\" fill=\"#9BA9AD\" fill-rule=\"nonzero\"></path><polygon id=\"Path\" points=\"0 0 24 0 24 24 0 24\"></polygon></g></g></g></svg>"
+  },
+  {
+    "type": "frontDesk",
+    "name": "Ресепшн",
+    "options": { "isInk": "false" },
+    "searchPhrases": { "ресепшн": "frontDesk", "ресепшен": "frontDesk" },
+    "optionsForFilter": [],
+    "color": "#ffedb3",
+    "icon": "<?xml version=\"1.0\" encoding=\"UTF-8\"?><svg width=\"20px\" height=\"20px\" viewBox=\"0 0 20 20\" version=\"1.1\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\"><g stroke=\"none\" stroke-width=\"1\" fill=\"none\" fill-rule=\"evenodd\"><g transform=\"translate(-2.000000, -2.000000)\"><rect x=\"0\" y=\"0\" width=\"24\" height=\"24\"></rect><circle fill=\"#9BA9AD\" cx=\"12\" cy=\"12\" r=\"10\"></circle><rect fill=\"#FFFFFF\" x=\"11\" y=\"11\" width=\"2\" height=\"6\"></rect><rect fill=\"#FFFFFF\" x=\"11\" y=\"7\" width=\"2\" height=\"2\"></rect></g></g></svg>"
+  }
+]

@@ -1,0 +1,44 @@
+[
+  {
+    "type": "Переговорные",
+    "class": "meeting-rooms",
+    "title": "Доступная переговорная",
+    "color": "var(--green)"
+  },
+  {
+    "type": "Переговорные",
+    "class": "meeting-rooms",
+    "title": "Переговорная не удовлетворяет фильтру",
+    "color": "var(--light-green)"
+  },
+  {
+    "type": "Переговорные",
+    "class": "meeting-rooms",
+    "title": "Недоступная переговорная",
+    "color": "var(--gray)"
+  },
+  {
+    "type": "Рабочие места",
+    "class": "workplaces",
+    "title": "Свободное рабочее место",
+    "color": "var(--green)"
+  },
+  {
+    "type": "Рабочие места",
+    "class": "workplaces",
+    "title": "Занятое рабочее место",
+    "color": "var(--light-green)"
+  },
+  {
+    "type": "Рабочие места",
+    "class": "workplaces",
+    "title": "Недоступно по правилам рассадки",
+    "color": "var(--yellow)"
+  },
+  {
+    "type": "Рабочие места",
+    "class": "workplaces",
+    "title": "Моё рабочее место",
+    "color": "var(--my-place)"
+  }
+]

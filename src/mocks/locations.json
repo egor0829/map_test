@@ -1,0 +1,47 @@
+[
+  {
+    "id": "1c4f4076-a3c4-11e9-96bd-005056822e3f",
+    "city": "Москва",
+    "title": "Воздвиженка",
+    "floors": [4, 5],
+    "responsiblePersons": [
+      "vasilii.tolovenkov@domrf.ru",
+      "andrei.remizov@domrf.ru"
+    ]
+  },
+  {
+    "id": "1c4f4075-a3c4-11e9-96bd-005056822e3f",
+    "city": "Москва",
+    "title": "Арбат",
+    "floors": [2, 3],
+    "responsiblePersons": ["andrei.remizov@domrf.ru"]
+  },
+  {
+    "id": "1cbcba64-3e83-11ea-a835-005056822e3f",
+    "city": "Москва",
+    "title": "Ленинградка",
+    "floors": [5],
+    "responsiblePersons": ["andrei.remizov@domrf.ru"]
+  },
+  {
+    "id": "03c0f70d-47e6-11ea-92a3-005056822e3f",
+    "city": "Москва",
+    "title": "Перово",
+    "floors": [2, 3],
+    "responsiblePersons": ["andrei.remizov@domrf.ru"]
+  },
+  {
+    "id": "18122ecb-4409-11ea-a835-005056822e3f",
+    "city": "Воронеж",
+    "title": "Марриот",
+    "floors": [4, 5, 6],
+    "responsiblePersons": ["marina.ametova@domrf.ru"]
+  },
+  {
+    "id": "3916c408-525e-11ea-92a3-005056822e3f",
+    "city": "Воронеж",
+    "title": "Степана Разина",
+    "floors": [5],
+    "responsiblePersons": ["marina.ametova@domrf.ru"]
+  }
+]
